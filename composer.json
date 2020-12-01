@@ -1,0 +1,42 @@
+{
+    "name": "kmuenkel/json-schema-laravel",
+    "description": "This is a Laravel Request-compatible override for opis/json-schema.",
+    "time": "2020-11-30 16:00:00",
+    "authors": [
+        {
+            "name": "Kevin Muenkel",
+            "email": "kevin_tm@yahoo.com"
+        }
+    ],
+    "keywords": [
+        "Laravel",
+        "Validation",
+        "JSON-Schema"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "illuminate/validation": "^7.0|^8.0",
+        "opis/json-schema": "^1.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.9",
+        "phpunit/phpunit": "^9.4",
+        "mockery/mockery": "^1.4",
+        "barryvdh/laravel-ide-helper": "^2.8",
+        "orchestra/testbench": "^5.7",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpmd/phpmd": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsonSchema\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

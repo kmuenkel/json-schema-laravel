@@ -1,0 +1,7 @@
+.idea
+vendor
+*.cache
+.env
+*.phar
+tmp
+.phpdoc
